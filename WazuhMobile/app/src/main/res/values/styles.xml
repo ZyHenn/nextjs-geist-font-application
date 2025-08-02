@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Base application theme -->
+    <style name="Theme.WazuhMobile" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/wazuh_primary</item>
+        <item name="colorPrimaryVariant">@color/wazuh_primary_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSecondary">@color/wazuh_primary_light</item>
+        <item name="colorSecondaryVariant">@color/wazuh_primary</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorSurface">@color/background_white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/wazuh_primary</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.WazuhMobile.Splash" parent="Theme.WazuhMobile">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/wazuh_primary</item>
+        <item name="android:navigationBarColor">@color/wazuh_primary</item>
+    </style>
+    
+    <!-- Card Styles -->
+    <style name="WazuhCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:background">@color/card_background</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="WazuhTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="WazuhSubtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="WazuhCardTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="WazuhCardSubtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="WazuhButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/wazuh_primary</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <!-- Input Field Styles -->
+    <style name="WazuhEditText" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    
+    <!-- Status Badge Styles -->
+    <style name="StatusBadgeActive">
+        <item name="android:background">@drawable/status_active_background</item>
+        <item name="android:textColor">@color/status_active</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">6dp</item>
+    </style>
+    
+    <style name="StatusBadgeInactive">
+        <item name="android:background">@drawable/status_inactive_background</item>
+        <item name="android:textColor">@color/status_inactive</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">6dp</item>
+    </style>
+    
+</resources>
