@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Wazuh Colors -->
+    <color name="wazuh_primary">#2E4A7A</color>
+    <color name="wazuh_primary_dark">#1E3A6A</color>
+    <color name="wazuh_primary_light">#4A6B9A</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#2E4A7A</color>
+    <color name="gradient_end">#1E3A6A</color>
+    
+    <!-- Status Colors -->
+    <color name="status_connected">#4CAF50</color>
+    <color name="status_active">#4CAF50</color>
+    <color name="status_inactive">#F44336</color>
+    <color name="status_warning">#FF9800</color>
+    
+    <!-- Alert Colors -->
+    <color name="critical_red">#F44336</color>
+    <color name="high_orange">#FF9800</color>
+    <color name="medium_yellow">#FFC107</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_hint">#BDBDBD</color>
+    
+    <!-- AI Summary Colors -->
+    <color name="ai_summary_background">#7986CB</color>
+    <color name="ai_summary_text">#FFFFFF</color>
+    
+    <!-- Bottom Navigation -->
+    <color name="bottom_nav_selected">#2E4A7A</color>
+    <color name="bottom_nav_unselected">#9E9E9E</color>
+    
+    <!-- Standard Android Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
